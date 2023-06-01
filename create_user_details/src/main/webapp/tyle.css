@@ -1,0 +1,103 @@
+*
+{
+	text-transform:capitalize;
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	background-color:grey;
+}
+.first
+{
+	margin:auto;
+	position:relative;
+	box-shadow:0px 0px 2px 1px grey;
+	width:35%;
+	text-align:center;
+	top:60px;
+	padding:30px;
+	background-color:white;
+	
+}
+h3
+{
+	text-align:center;
+	text-shadow:5px 2px 1px  green;
+}
+.first input
+{
+	padding:5px;
+	border-radius:3px;
+	border:none;
+	border:1px solid green;
+}
+.first input:focus 
+{
+	outline:0;
+	border:1px solid red;
+	box-shadow:0px 0px 5px red;
+}
+.btn
+{
+	color:white;
+	background-color:orange;
+	width:100px;
+}
+table
+{
+	margin:auto;
+	position:relative;
+	width:70%;
+	text-align:center;
+	background-color:white;
+	border-radius:0px 0px 15px 15px;
+}
+table td
+{
+	padding:15px;
+} 	
+table td input
+{
+	padding:5px;
+	width:40%;
+	border-radius:3px;
+}
+.gen
+{
+	width:25px;
+	padding:5px;
+}
+.nav-div nav ul
+{
+	display:flex;
+	justify-content:space-around;
+	
+}
+.nav-div
+{
+	background-color:#0352BD;
+	padding:10px;
+}
+.nav-div nav ul li
+{
+	list-style:none;
+}
+.nav-div nav ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.skill
+{
+	border:1px solid black;
+	width:80%;
+	margin:auto;
+	position:relative;
+	padding:15px;
+}
+.table , .th , .td
+{
+	border:1px solid black;
+	border-collapse:collapse;
+}
